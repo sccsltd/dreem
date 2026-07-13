@@ -1,0 +1,67 @@
+# Generated and operator-specific runtime material
+/private/
+/evidence/
+/captures/
+/tmp/
+/secrets/
+/credentials/
+
+# Environment files and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Credentials and signing material
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.mobileprovision
+id_rsa*
+id_ed25519*
+.netrc
+.npmrc
+.pypirc
+*token*
+*secret*
+*password*
+
+# Reviewed source files whose descriptive path includes "password"
+!/experiments/security/dreem-ssh-password-campaign/
+!/experiments/security/dreem-ssh-password-campaign/dreem_ssh_password_campaign.py
+!/experiments/security/dreem-ssh-password-campaign/dreem-ssh-connectivity-watchdog.sh
+
+# Raw run outputs and captures
+*.log
+*.stdout
+*.stderr
+*.err
+*.out
+*.pcap
+*.pcapng
+*.sr
+*btsnoop*
+*logcat*
+shared_prefs/
+*.tgz
+*.tar
+*.zip
+
+# Local interpreter/build byproducts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.bak
+*.old
+*~
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

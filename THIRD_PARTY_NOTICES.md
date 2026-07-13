@@ -1,0 +1,29 @@
+# Third-party notices
+
+The root Apache-2.0 license and the CC BY 4.0 photograph license apply only to material identified in [`NOTICE`](NOTICE). The following files retain separate provenance and are not relicensed by this project.
+
+## U-Boot-derived recovery files
+
+The following files were produced from or configured for [U-Boot](https://source.denx.de/u-boot/u-boot), which identifies its primary license as GPL-2.0-or-later:
+
+- `recovery/u-boot/ums-boot-assets/*u-boot-with-spl.imx`
+- `recovery/u-boot/build-configs/*/generated_defconfig`
+
+The GPL version 2 text is provided in [`LICENSES/GPL-2.0-or-later.txt`](LICENSES/GPL-2.0-or-later.txt). Anyone redistributing the compiled images must independently satisfy the applicable GPL source and notice requirements. The included configurations are research artifacts and do not replace complete corresponding U-Boot source.
+
+## Upstream source snapshots
+
+The files under `third-party/source-snapshots/` are attributed snapshots of these upstream repositories:
+
+- [jabituyaben/DreemEEG](https://github.com/jabituyaben/DreemEEG), commit `084172e1565e75327eaf80e44b949602da585cf6`
+- [Dreem-Organization/dreem-standalone](https://github.com/Dreem-Organization/dreem-standalone), commit `c103b70fe9bff3187e7b3d0f3d0982a21975f6a8`
+
+No license file accompanied either captured snapshot. This project does not grant permission to copy, modify, or redistribute those files; consult the upstream copyright holders.
+
+## Dreem documentation
+
+[`docs/dreem-2-user-manual.pdf`](docs/dreem-2-user-manual.pdf) is Dreem documentation. It is not covered by this project's Apache-2.0 or CC BY 4.0 grants.
+
+## FCC construction-photo exhibit
+
+[`hardware/dreem-2-fcc-internal-construction-photos.pdf`](hardware/dreem-2-fcc-internal-construction-photos.pdf) is a Bureau Veritas construction-photo exhibit obtained through the public FCC filing for FCC ID `2AH2Q-DREEM2`. Public availability is not represented here as a copyright license. It is not covered by this project's Apache-2.0 or CC BY 4.0 grants.

@@ -1,0 +1,6 @@
+id=dreemble_priv
+name=Dreem BLE Helper Privileged
+version=1
+versionCode=1
+author=Codex
+description=Temporary privileged install for Dreem BLE pairing confirmation

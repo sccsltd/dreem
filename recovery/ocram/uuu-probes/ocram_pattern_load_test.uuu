@@ -1,0 +1,7 @@
+uuu_version 1.4.72
+SDP: rdmem -addr 0x21bc400 -format 32
+SDP: rdmem -addr 0x0091f000 -format 32
+SDP: wrmem -addr 0x0091f000 -format 32 -value 0x4452454d
+SDP: rdmem -addr 0x0091f000 -format 32
+SDP: write -f dreem_sdp_test_pattern.bin -addr 0x00910000
+SDP: rdmem -addr 0x00910000 -format 32

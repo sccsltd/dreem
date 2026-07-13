@@ -1,0 +1,10 @@
+uuu_version 1.4.72
+SDP: rdmem -addr 0x21bc400 -format 32
+SDP: rdmem -addr 0x21bc410 -format 32
+SDP: rdmem -addr 0x21bc420 -format 32
+SDP: rdmem -addr 0x21bc620 -format 32
+SDP: rdmem -addr 0x21bc630 -format 32
+SDP: rdmem -addr 0x21bc660 -format 32
+SDP: rdmem -addr 0x21bc670 -format 32
+SDP: rdmem -addr 0x0091f000 -format 32
+SDP: rdmem -addr 0x02194048 -format 32

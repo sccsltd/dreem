@@ -1,0 +1,24 @@
+* text=auto
+
+*.c text eol=lf
+*.cfg text eol=lf
+*.conf text eol=lf
+*.java text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.prop text eol=lf
+*.ps1 text eol=lf
+*.py text eol=lf
+*.S text eol=lf
+*.sh text eol=lf
+*.sql text eol=lf
+*.txt text eol=lf
+*.uuu text eol=lf
+*.xml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+*.bin binary
+*.imx binary
+*.jpg binary
+*.pdf binary
